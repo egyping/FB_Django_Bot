@@ -1,0 +1,34 @@
+heroku run python manage.py migrate
+
+pip install django psycopg2-binary dj-database-url gunicorn
+
+
+
+
+'''
+{
+  "object": "page",
+  "entry": [
+    {
+      "id": "137101496360273",
+      "time": 1489404570380,
+      "messaging": [
+        {
+          "sender": {
+            "id": "3813657865350990"
+          },
+          "recipient": {
+            "id": "xyz"
+          },
+          "timestamp": 1489404570341,
+          "message": {
+            "mid": "mid.1489404570341:ce017e2f89",
+            "seq": 72281,
+            "text": "stupid"
+          }
+        }
+      ]
+    }
+  ]
+}
+'''
